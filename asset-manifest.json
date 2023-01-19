@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/image_resizer/static/css/main.835e3727.css",
+    "main.js": "/image_resizer/static/js/main.b301afd7.js",
+    "index.html": "/image_resizer/index.html",
+    "main.835e3727.css.map": "/image_resizer/static/css/main.835e3727.css.map",
+    "main.b301afd7.js.map": "/image_resizer/static/js/main.b301afd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.835e3727.css",
+    "static/js/main.b301afd7.js"
+  ]
+}
