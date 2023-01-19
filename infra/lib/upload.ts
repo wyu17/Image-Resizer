@@ -48,6 +48,7 @@ export class Upload extends Construct {
 
     // Bucket for uploading images
     const uploadBucket = new s3.Bucket(this, "UploadBucket", {
+      bucketName: process.env.UPLOADBUCKET,
       versioned: true,
       cors: [corsRule],
     });
@@ -70,6 +71,7 @@ export class Upload extends Construct {
 
     // Bucket for storing resized images
     const resizeBucket = new s3.Bucket(this, "ResizedBucket", {
+      bucketName: process.env.RESIZEBUCKET,
       versioned: true,
       cors: [corsRule],
     });
