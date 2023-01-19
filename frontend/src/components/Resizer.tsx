@@ -25,7 +25,7 @@ const Resizer: React.FunctionComponent<Props> = ({ file }) => {
     setIsLoadingResize(true);
     const uploadParams = new URLSearchParams({ type: file.type });
     try {
-      const uploadResponse = await fetch(uploadLambda + uploadParams);
+      const uploadResponse = await fetch(`${uploadLambda}?${uploadParams}`);
       if (!uploadResponse.ok) {
         setIsLoadingResize(false);
         return;
@@ -47,7 +47,7 @@ const Resizer: React.FunctionComponent<Props> = ({ file }) => {
         width: resizeWidth.toString(),
       });
 
-      const resizeResponse = await fetch(resizeLambda + resizeParams);
+      const resizeResponse = await fetch(`${resizeLambda}?${resizeParams}`);
       if (!resizeResponse.ok) {
         setIsLoadingResize(false);
         return;
