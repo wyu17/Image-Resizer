@@ -1,5 +1,5 @@
 # Image Resizer
-Deployed statically at https://wyu17.github.io/image_resizer/.
+Deployed statically at https://wyu17.github.io/Image-Resizer/.
 
 A utility website for resizing JPEG and PNG images. 
 
