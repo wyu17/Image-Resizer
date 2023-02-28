@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://wyu17.github.io/image_resizer",
+  "homepage": "https://wyu17.github.io/Image-Resizer",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
