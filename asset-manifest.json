@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Image_Resizer/static/css/main.835e3727.css",
-    "main.js": "/Image_Resizer/static/js/main.8d26f9a4.js",
-    "index.html": "/Image_Resizer/index.html",
-    "main.835e3727.css.map": "/Image_Resizer/static/css/main.835e3727.css.map",
-    "main.8d26f9a4.js.map": "/Image_Resizer/static/js/main.8d26f9a4.js.map"
+    "main.css": "/Image-Resizer/static/css/main.835e3727.css",
+    "main.js": "/Image-Resizer/static/js/main.3984556e.js",
+    "index.html": "/Image-Resizer/index.html",
+    "main.835e3727.css.map": "/Image-Resizer/static/css/main.835e3727.css.map",
+    "main.3984556e.js.map": "/Image-Resizer/static/js/main.3984556e.js.map"
   },
   "entrypoints": [
     "static/css/main.835e3727.css",
-    "static/js/main.8d26f9a4.js"
+    "static/js/main.3984556e.js"
   ]
 }
